@@ -3,8 +3,8 @@ def reformat_languages(languages)
   languages.each do |styl, lang_hash|
     lang_hash.each do |language, attributes|
       hash[language] = attributes
-        hash[language][:style] = []
-        hash[language][:style].push(styl)
+      hash[language][:style] = []
+      hash[language][:style].push(styl)
     end
   end 
   hash[:javascript][:style] 
