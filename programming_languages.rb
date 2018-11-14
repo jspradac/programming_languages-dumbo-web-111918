@@ -8,4 +8,4 @@ def reformat_languages(languages)
         c = lang_type
         if hash[b] = {style: 
 end
-{:ruby => {:type => "interpreted", :style => [:oo]}
+{:ruby => {:type => "interpreted", :style => [:oo]}}
