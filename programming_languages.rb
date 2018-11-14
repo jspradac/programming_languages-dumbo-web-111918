@@ -6,10 +6,10 @@ def reformat_languages(languages)
       b = language
       attributes.each do |kind, lang_type| 
         c = lang_type
-        if hash[b][:style]
-          hash[b][:style].push(a)
-        else 
+        if hash[b][:style] == nil
           hash[b] = {style: [a], type: c}
+        else 
+          hash[b][:style].push(a)
         end
       end
     end
