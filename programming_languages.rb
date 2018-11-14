@@ -4,10 +4,6 @@ def reformat_languages(languages)
     a = style 
     lang_hash.each do |language, attributes|
       b = language
-      attributes.each do |kind, lang_type| 
-        c = lang_type
-
-      end
     end
   end 
   hash 
