@@ -1,3 +1,10 @@
 def reformat_languages(languages)
-  # your code here
+  hash = {}
+  languages.each do |style, lang_hash|
+    a = style 
+    lang_hash.each do |language, attributes|
+      b = language
+      attributes.each do |kind, lang_type| 
+        c = lang_type
+        hash[b] = {style: 
 end
