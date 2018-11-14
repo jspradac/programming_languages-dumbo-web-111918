@@ -5,9 +5,8 @@ def reformat_languages(languages)
       hash[language] = attributes
       if hash[language][:style] == nil 
         hash[language][:style] = [style]
-        
       else 
-        hash[language][:style] << style 
+        hash[language][:style].push(style) 
       end
     end
   end 
