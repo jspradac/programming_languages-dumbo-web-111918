@@ -7,5 +7,5 @@ def reformat_languages(languages)
       hash[language][:style].push(styl)
     end
   end 
-  hash[:javascript][:style] 
+  hash 
 end
