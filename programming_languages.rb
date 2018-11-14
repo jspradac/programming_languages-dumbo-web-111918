@@ -15,4 +15,3 @@ def reformat_languages(languages)
     end
   end 
 end
-{:ruby => {:type => "interpreted", :style => [:oo]}}
