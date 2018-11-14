@@ -10,6 +10,6 @@ def reformat_languages(languages)
       end
     end
   end 
-  hash[:javascript] 
+  hash[:javascript][:style] 
 end
 reformat_languages(languages)
