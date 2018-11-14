@@ -9,6 +9,10 @@ def reformat_languages(languages)
         if hash[b][:style]
           hash[b][:style].push(a)
         else 
-          
+          hash[b] = {style: [a], type: c}
+        end
+      end
+    end
+  end 
 end
 {:ruby => {:type => "interpreted", :style => [:oo]}}
