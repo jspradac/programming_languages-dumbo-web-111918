@@ -6,7 +6,8 @@ def reformat_languages(languages)
       if (hash[language].keys).include?(:style)
         hash[language][:style].push(styl)
       else 
-        hash[language][:style] = []
+        hash[language][:style] = [styl]
+      end
     end
   end 
   hash 
