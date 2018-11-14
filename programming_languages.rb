@@ -9,4 +9,3 @@ def reformat_languages(languages)
   end 
   hash[:javascript][:style] 
 end
-reformat_languages(languages)
