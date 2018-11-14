@@ -6,5 +6,5 @@ def reformat_languages(languages)
       b = language
       attributes.each do |kind, lang_type| 
         c = lang_type
-        hash[b] = {style: 
+        if hash[b] = {style: 
 end
