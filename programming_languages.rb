@@ -9,8 +9,3 @@ def reformat_languages(languages)
   hash 
 end
 
- if hash[b][:style] == nil
-  hash[b] = {style: [a], type: c}
-else 
-  hash[b][:style].push(a)
-end
