@@ -6,6 +6,9 @@ def reformat_languages(languages)
       b = language
       attributes.each do |kind, lang_type| 
         c = lang_type
-        if hash[b] = {style: 
+        if hash[b][:style]
+          hash[b][:style].push(a)
+        else 
+          
 end
 {:ruby => {:type => "interpreted", :style => [:oo]}}
